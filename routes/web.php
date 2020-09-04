@@ -23,3 +23,11 @@ Route::get('/livestreaming', function () {
 Route::get('/cart', function () {
     return view('cart');
 });
+
+Route::get('/productdetail', function () {
+    return view('productdetail');
+});
+
+Route::get('/checkout', function () {
+    return view('checkout');
+});

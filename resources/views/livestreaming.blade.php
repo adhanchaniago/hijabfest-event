@@ -6,8 +6,8 @@ Live Streaming | HijabFest
 @section('content_page')
  
 <div class="container">
-  <h2>Live Streaming </h2>
-  <p>Produk Live Streaming</p>
+  <h2 id="section-title-livestream">Title Live Streaming </h2>
+  <p>Description Live Streaming</p>
   <div class="embed-responsive embed-responsive-16by9">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/CB52KElSBEk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
@@ -19,34 +19,17 @@ Live Streaming | HijabFest
           <div class="row">
             <div class="col-md-4">
               <div class="card mb-4 box-shadow">
-                <img class="card-img-top" src="img/dummy1.png" alt="Card image cap">
+                  <a href="/productdetail"> 
+                    <img class="card-img-top" src="img/dummy1.png" alt="Card image cap" >
+                  </a>
                 <div class="card-body">
+                <a href="/productdetail"> 
+                    <h4 class="card-text">Product Name</h4>
+                  </a>
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="collapse" data-target="#collapseShowMerchant" aria-expanded="false" aria-controls="collapseShowMerchant">Action</button>
-                    </div>
-                  </div>
-                </div>
-                <div class="collapse" id="collapseShowMerchant">
-                        <div class="card card-body">
-                            <p>Whatsapp :<a href="https://www.whatsapp.com" target="_blank">08000123112213</a></p>
-                            <br/>
-                            <p>Instagram :<a href="https://www.instagram.com" target="_blank">@namakun</a></p>
-                            <br/>
-                            <p>Web :<a href="https://www.facebook.com" target="_blank">blabla.com</a></p>
-                        </div>
-		            </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="card mb-4 box-shadow">
-              <img class="card-img-top" src="img/dummy1.png" alt="Card image cap">
-                <div class="card-body">
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                        <button type="button" class="btn btn-sm btn-outline-secondary">Action</button>
+                    <a class="btn btn-sm btn-outline-secondary" href="/cart" role="button">Add to Cart</a>
                     </div>
                   </div>
                 </div>
@@ -54,12 +37,35 @@ Live Streaming | HijabFest
             </div>
             <div class="col-md-4">
               <div class="card mb-4 box-shadow">
-              <img class="card-img-top" src="img/dummy1.png" alt="Card image cap">
+              <a href="/productdetail"> 
+                    <img class="card-img-top" src="img/dummy1.png" alt="Card image cap" >
+                  </a>
                 <div class="card-body">
+                <a href="/productdetail"> 
+                    <h4 class="card-text">Product Name</h4>
+                  </a>
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                        <button type="button" class="btn btn-sm btn-outline-secondary">Action</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary" >Add to cart</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+              <a href="/productdetail"> 
+                    <img class="card-img-top" src="img/dummy1.png" alt="Card image cap" >
+                  </a>
+                <div class="card-body">
+                <a href="/productdetail"> 
+                    <h4 class="card-text">Product Name</h4>
+                  </a>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary" >Add to cart</button>
                     </div>
                   </div>
                 </div>
